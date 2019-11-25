@@ -3,9 +3,9 @@ img[src*="image"] {
   height: 50%;
 }
 
-body { 
+body {
   background-color: black;
-  color: #fff; 
+  color: #fff;
 }
 
 p {

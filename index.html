@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Sally Student React Resume</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="application-root"></div>
@@ -12,7 +13,7 @@
     <script type="text/babel">
       function App(props) {
         console.log(props);
-        return <header>Sally React Resume</header>;
+        return <main> {props.children}</main>;
       }
 
       ReactDOM.render(
@@ -40,47 +41,45 @@
             <h3>Education:</h3>
             University of Texas at Austin, Class of 2018
           </section>
-          <main>
-            <h3>Job History</h3>
-            <section>
-              <h4>Company Name:</h4>
-              Starbucks
-              <h4>Job Title:</h4>
-              Barrista
-              <h4>Dates of Employment:</h4>
-              2014-2015
-              <h4>Job Description:</h4>
-              <p>
-                Pretty betrayal something to sing about graduation, freshman
-                special prophecy girl Willow monster evil. Stake Halloween zeppo
-                loves bitch fear itself wrecked, human chosen Oz prophecy girl.
-                Vampire Giles fire vampire demon, born hate graduation Dracula
-                surprise pretty Riley. Oz rest in peace sweet standing under
-                your spell betrayal Willow. Riley apocalypse Harmony evil
-                freshman homecoming werewolf.
-              </p>
-            </section>
+          <h3>Job History</h3>
+          <section>
+            <h4>Company Name:</h4>
+            Starbucks
+            <h4>Job Title:</h4>
+            Barrista
+            <h4>Dates of Employment:</h4>
+            2014-2015
+            <h4>Job Description:</h4>
+            <p>
+              Pretty betrayal something to sing about graduation, freshman
+              special prophecy girl Willow monster evil. Stake Halloween zeppo
+              loves bitch fear itself wrecked, human chosen Oz prophecy girl.
+              Vampire Giles fire vampire demon, born hate graduation Dracula
+              surprise pretty Riley. Oz rest in peace sweet standing under your
+              spell betrayal Willow. Riley apocalypse Harmony evil freshman
+              homecoming werewolf.
+            </p>
+          </section>
 
-            <section>
-              <h4>Company Name:</h4>
-              Spotify
-              <h4>Job Title:</h4>
-              Intern
-              <h4>Dates of Employment:</h4>
-              2016-2018
-              <h4>Job Description:</h4>
-              <p>
-                Pretty betrayal something to sing about graduation, freshman
-                special prophecy girl Pretty pilot Spike attack hero hunter
-                consequences hell. Angel prom witch Halloween bargaining Kendra,
-                sleeping Giles Halloween evil. Dawn zeppo Anya sleeping slayer
-                band candy slayer homecoming. Wrecked pretty fire Oz graduation
-                consequences zeppo, love isnt brains Kendra once more with
-                feeling vampire. Weak what you feel Halloween hunter fire Angel
-                something to sing about, mustard children vampire prom prom.
-              </p>
-            </section>
-          </main>
+          <section>
+            <h4>Company Name:</h4>
+            Spotify
+            <h4>Job Title:</h4>
+            Intern
+            <h4>Dates of Employment:</h4>
+            2016-2018
+            <h4>Job Description:</h4>
+            <p>
+              Pretty betrayal something to sing about graduation, freshman
+              special prophecy girl Pretty pilot Spike attack hero hunter
+              consequences hell. Angel prom witch Halloween bargaining Kendra,
+              sleeping Giles Halloween evil. Dawn zeppo Anya sleeping slayer
+              band candy slayer homecoming. Wrecked pretty fire Oz graduation
+              consequences zeppo, love isnt brains Kendra once more with feeling
+              vampire. Weak what you feel Halloween hunter fire Angel something
+              to sing about, mustard children vampire prom prom.
+            </p>
+          </section>
         </App>,
         document.querySelector("#application-root")
       );
