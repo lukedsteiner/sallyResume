@@ -1,0 +1,13 @@
+img[src*="image"] {
+  width: 50%;
+  height: 50%;
+}
+
+body { 
+  background-color: black;
+  color: #fff; 
+}
+
+p {
+  font-size: 18px;
+}

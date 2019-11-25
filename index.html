@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sally Student React Resume</title>
+  </head>
+  <body>
+    <div id="application-root"></div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+
+        function App() {
+            console.log(props)
+            return (
+        <header>
+        Sally React Resume
+        </header>);
+        };
+
+
+      ReactDOM.render(
+        <App>
+            <h1>Sally Student</h1>
+          <h2>Semantic HTML Resume</h2>
+          <h3>Contact Info:</h3>
+          <h2>Sally Student</h2>
+          <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Sally Student Portrait">
+          <section>
+            <a href="mailto:sally.student@gmail.com?Subject=Resume%20Contact" target="_blank">sally.student@gmail.com</a>
+            <a href="tel:+15126667777">(512) 666-7777</a>
+            <span>123 Testing Road</span>
+           <span> Austin, Texas 78741</span>
+          </section>
+          <section>
+            <h3>Education:</h3>
+            University of Texas at Austin, Class of 2018
+          </section>
+          <main>
+            <h3>Job History</h3>
+            <section>
+            <h4>Company Name:</h4>
+            Starbucks
+            <h4>Job Title:</h4>
+            Barrista
+            <h4>Dates of Employment:</h4>
+            2014-2015
+            <h4>Job Description:</h4>
+            <p>Pretty betrayal something to sing about graduation, freshman special prophecy girl Willow monster evil. Stake Halloween zeppo loves bitch fear itself wrecked, human chosen Oz prophecy girl. Vampire Giles fire vampire demon, born hate graduation Dracula surprise pretty Riley. Oz rest in peace sweet standing under your spell betrayal Willow. Riley apocalypse Harmony evil freshman homecoming werewolf.</p>
+            </section>
+
+            <section>
+            <h4>Company Name:</h4>
+            Spotify
+            <h4>Job Title:</h4>
+            Intern
+            <h4>Dates of Employment:</h4>
+            2016-2018
+            <h4>Job Description:</h4>
+            <p>Pretty betrayal something to sing about graduation, freshman special prophecy girl Pretty pilot Spike attack hero hunter consequences hell. Angel prom witch Halloween bargaining Kendra, sleeping Giles Halloween evil. Dawn zeppo Anya sleeping slayer band candy slayer homecoming. Wrecked pretty fire Oz graduation consequences zeppo, love isnt brains Kendra once more with feeling vampire. Weak what you feel Halloween hunter fire Angel something to sing about, mustard children vampire prom prom.</p>
+            </section>
+          </main>
+        <App />,
+        document.querySelector('#application-root'));
+    </script>
+  </body>
+</html>
